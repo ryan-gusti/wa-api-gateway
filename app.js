@@ -7,5 +7,5 @@ const router = require("./routers");
 app.use(express.json());
 app.use("/api", router);
 app.listen(PORT, () => {
-  console.log("server berjalan di port 3000");
+  console.log(`server berjalan di port ${PORT}`);
 });
